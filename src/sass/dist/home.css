@@ -1,7 +1,9 @@
 .App-header {
   color: #1BBABA;
   background-image: url(../images/maintenance.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
