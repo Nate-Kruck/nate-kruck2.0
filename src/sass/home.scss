@@ -5,7 +5,9 @@ $transparent: rgba(0, 0, 0, 0);
 .App-header {
     color: $primary-color;
     background-image: url(../images/maintenance.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
