@@ -1,11 +1,14 @@
 import './App.css';
+import './sass/home.scss';
 import Home from './components/home';
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <Home />
+          <div className="Neon-nate">
+              <Home />
+          </div>
         </header>
       </div>
   );
