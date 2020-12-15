@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring } from 'react-spring';
-
+import Header from './components/header';
 import { FullMenu } from './components/navigation';
 import MainParallax from './components/parallax';
 import './sass/App.scss';
@@ -18,17 +18,18 @@ function App() {
   return (
     <>
       <MainParallax />
-    <div className="App">
-        <button 
-          className="menu-button menu-button--full"
-          onClick={() => setFullMenuVisible(!fullMenuVisible)}
+      <Header />
+        <div className="App">
+          <button 
+            className="menu-button menu-button--full"
+            onClick={() => setFullMenuVisible(!fullMenuVisible)}
           >
-          {fullMenuVisible ? "Close" : "Menu"}
-        </button>
+            {fullMenuVisible ? "Close" : "Menu"}
+          </button>
 
-        <FullMenu style={fullMenuAnimation} />
-      </div>
-      </>    
+          <FullMenu style={fullMenuAnimation} />
+        </div>
+    </>    
   );
 }
 

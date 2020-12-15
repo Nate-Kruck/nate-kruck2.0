@@ -1,0 +1,58 @@
+.menu {
+  position: absolute;
+  background-color: #037367;
+  color: black;
+  z-index: 30;
+}
+
+.menu--full {
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  padding: 0;
+  list-style: none;
+}
+
+.menu-list-item--full {
+  font-size: 5em;
+  margin: 40px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #BEA42E;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #00281F;
+}
+
+.menu-button--full {
+  top: 40px;
+  left: 20px;
+}
+
+.menu-button {
+  z-index: 40;
+  border: none;
+  position: fixed;
+  top: 40px;
+  right: 20px;
+  padding: 12px;
+  font-size: 1em;
+  background: none;
+  background: #fff;
+  color: #BEA42E;
+}
+
+.menu-button--full:hover {
+  background: #037367;
+}
