@@ -2,190 +2,199 @@ $primary-color: #1BBABA;
 $shadow1: #BA1B1B;
 $transparent: rgba(0, 0, 0, 0);
 
+
+.App {
+  text-align: center;
+}
+
 .App-header {
-    color: $primary-color;
-    background-image: url(../images/maintenance.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-size: calc(18px + 2vmin);
+  color: $primary-color;
+  background-image: url(../images/maintenance.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(18px + 2vmin);
 }
 
 .Neon-nate {
-    text-shadow: 0 0 0.2rem $shadow1, 0 0 0.5rem $shadow1,
-        -0.2rem 0.1rem 1rem $shadow1, 0.2rem 0.1rem 1rem $shadow1,
-        0 -0.5rem 2rem $shadow1, 0 0.5rem 3rem $shadow1;
-        animation: shine 3.3s forwards, flicker 3s infinite;
+  text-shadow: 0 0 0.2rem $shadow1, 0 0 0.5rem $shadow1,
+    -0.2rem 0.1rem 1rem $shadow1, 0.2rem 0.1rem 1rem $shadow1,
+    0 -0.5rem 2rem $shadow1, 0 0.5rem 3rem $shadow1;
+  animation: shine 3.3s forwards, flicker 3s infinite;
 }
 
 @keyframes blink {
-0%,
-22%,
-36%,
-75% {
-  color: $primary-color;
-  text-shadow: 0 0 0.6rem $primary-color, 0 0 1.5rem $primary-color,
-    -0.2rem 0.1rem 1rem $shadow1, 0.2rem 0.1rem 1rem $shadow1,
-    0 -0.5rem 2rem $transparent, 0 0.5rem 3rem $transparent;
-}
-28%,
-33% {
-  color: $primary-color;
-  text-shadow: none;
-}
-82%,
-97% {
-  color: $transparent;
-  text-shadow: none;
-}
+
+  0%,
+  22%,
+  36%,
+  75% {
+    color: $primary-color;
+    text-shadow: 0 0 0.6rem $primary-color, 0 0 1.5rem $primary-color,
+      -0.2rem 0.1rem 1rem $shadow1, 0.2rem 0.1rem 1rem $shadow1,
+      0 -0.5rem 2rem $transparent, 0 0.5rem 3rem $transparent;
+  }
+
+  28%,
+  33% {
+    color: $primary-color;
+    text-shadow: none;
+  }
+
+  82%,
+  97% {
+    color: $transparent;
+    text-shadow: none;
+  }
 }
 
 .flicker {
-animation: shine 5s forwards, blink 3s 5s infinite;
+  animation: shine 5s forwards, blink 3s 5s infinite;
 }
 
 .fast-flicker {
-animation: shine 5s forwards, blink 5s 1s infinite;
+  animation: shine 5s forwards, blink 5s 1s infinite;
 }
 
 @keyframes shine {
-0% {
-  color: $primary-color;
-  text-shadow: none;
-}
-100% {
-  color: $primary-color;
-  text-shadow: 0 0 0.6rem $primary-color, 0 0 1.5rem $primary-color,
-    -0.2rem 0.1rem 1rem $shadow1, 0.2rem 0.1rem 1rem $shadow1,
-    0 -0.5rem 2rem $transparent, 0 0.5rem 3rem $transparent;
-}
+  0% {
+    color: $primary-color;
+    text-shadow: none;
+  }
+
+  100% {
+    color: $primary-color;
+    text-shadow: 0 0 0.6rem $primary-color, 0 0 1.5rem $primary-color,
+      -0.2rem 0.1rem 1rem $shadow1, 0.2rem 0.1rem 1rem $shadow1,
+      0 -0.5rem 2rem $transparent, 0 0.5rem 3rem $transparent;
+  }
 }
 
 @keyframes flicker {
-from {
-  opacity: 1;
-}
+  from {
+    opacity: 1;
+  }
 
-4% {
-  opacity: 0.9;
-}
+  4% {
+    opacity: 0.9;
+  }
 
-6% {
-  opacity: 0.85;
-}
+  6% {
+    opacity: 0.85;
+  }
 
-8% {
-  opacity: 0.95;
-}
+  8% {
+    opacity: 0.95;
+  }
 
-10% {
-  opacity: 0.9;
-}
+  10% {
+    opacity: 0.9;
+  }
 
-11% {
-  opacity: 0.922;
-}
+  11% {
+    opacity: 0.922;
+  }
 
-12% {
-  opacity: 0.9;
-}
+  12% {
+    opacity: 0.9;
+  }
 
-14% {
-  opacity: 0.95;
-}
+  14% {
+    opacity: 0.95;
+  }
 
-16% {
-  opacity: 0.98;
-}
+  16% {
+    opacity: 0.98;
+  }
 
-17% {
-  opacity: 0.9;
-}
+  17% {
+    opacity: 0.9;
+  }
 
-19% {
-  opacity: 0.93;
-}
+  19% {
+    opacity: 0.93;
+  }
 
-20% {
-  opacity: 0.99;
-}
+  20% {
+    opacity: 0.99;
+  }
 
-24% {
-  opacity: 1;
-}
+  24% {
+    opacity: 1;
+  }
 
-26% {
-  opacity: 0.94;
-}
+  26% {
+    opacity: 0.94;
+  }
 
-28% {
-  opacity: 0.98;
-}
+  28% {
+    opacity: 0.98;
+  }
 
-37% {
-  opacity: 0.93;
-}
+  37% {
+    opacity: 0.93;
+  }
 
-38% {
-  opacity: 0.5;
-}
+  38% {
+    opacity: 0.5;
+  }
 
-39% {
-  opacity: 0.96;
-}
+  39% {
+    opacity: 0.96;
+  }
 
-42% {
-  opacity: 1;
-}
+  42% {
+    opacity: 1;
+  }
 
-44% {
-  opacity: 0.97;
-}
+  44% {
+    opacity: 0.97;
+  }
 
-46% {
-  opacity: 0.94;
-}
+  46% {
+    opacity: 0.94;
+  }
 
-56% {
-  opacity: 0.9;
-}
+  56% {
+    opacity: 0.9;
+  }
 
-58% {
-  opacity: 0.9;
-}
+  58% {
+    opacity: 0.9;
+  }
 
-60% {
-  opacity: 0.99;
-}
+  60% {
+    opacity: 0.99;
+  }
 
-68% {
-  opacity: 1;
-}
+  68% {
+    opacity: 1;
+  }
 
-70% {
-  opacity: 0.9;
-}
+  70% {
+    opacity: 0.9;
+  }
 
-72% {
-  opacity: 0.95;
-}
+  72% {
+    opacity: 0.95;
+  }
 
-93% {
-  opacity: 0.93;
-}
+  93% {
+    opacity: 0.93;
+  }
 
-95% {
-  opacity: 0.95;
-}
+  95% {
+    opacity: 0.95;
+  }
 
-97% {
-  opacity: 0.93;
-}
+  97% {
+    opacity: 0.93;
+  }
 
-to {
-  opacity: 1;
-}
+  to {
+    opacity: 1;
+  }
 }
