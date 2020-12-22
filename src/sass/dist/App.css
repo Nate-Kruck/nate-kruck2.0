@@ -2,10 +2,8 @@
   font-family: cartoon-font;
   src: url("../fonts/cartoon-font.otf");
 }
-html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  overflow: hidden;
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .App {
@@ -13,16 +11,21 @@ html {
 }
 
 .header {
-  box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding: 1em;
+  justify-content: space-around;
+  align-self: flex-start;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(114, 186, 94, 0.05);
 }
 
-.header-name {
+.header--name {
   font-family: cartoon-font;
-  font-size: 6em;
+  font-size: 4em;
   color: white;
+  position: -webkit-sticky;
+  position: sticky;
   z-index: 4;
 }

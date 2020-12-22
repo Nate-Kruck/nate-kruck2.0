@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring } from 'react-spring';
-import Header from './components/header';
+// import Header from './components/header';
 import { FullMenu } from './components/navigation';
 import MainParallax from './components/parallax';
 import './sass/App.scss';
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <MainParallax />
-      <Header />
+      {/* <Header /> */}
         <div className="App">
           <button 
             className="menu-button menu-button--full"
