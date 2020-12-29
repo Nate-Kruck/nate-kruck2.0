@@ -53,3 +53,12 @@
     background-position: -10000px 5000px;
   }
 }
+.satellite {
+  width: 10%;
+  margin-left: 70%;
+}
+
+.moon {
+  width: 25%;
+  margin-left: 85%;
+}

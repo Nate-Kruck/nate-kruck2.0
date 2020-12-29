@@ -9,16 +9,16 @@ export const FullMenu = ({ style }) => (
         <nav>
             <ul className="menu-list menu-list--full">
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/">Home</a>
+                <a href="/">Home</a>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/">About</a>
+                    <a href="/about">About</a>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/">Projects</a>
+                    <a href="/projects">Projects</a>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </nav>

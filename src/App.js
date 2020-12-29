@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { useSpring } from 'react-spring';
-// import Header from './components/header';
+import Header from './components/header';
 import { FullMenu } from './components/navigation';
 import MainParallax from './components/parallax';
 import './sass/App.scss';
@@ -10,7 +11,7 @@ function App() {
   const [fullMenuVisible, setFullMenuVisible] = useState(false)
 
   const fullMenuAnimation = useSpring({
-    transform: fullMenuVisible ? `translateY(0)` : `translateY(-100%)`,
+    transform: fullMenuVisible ? `translateX(0)` : `translateX(-100%)`,
     opacity: fullMenuVisible ? 1 : 0
   });
 
@@ -18,17 +19,23 @@ function App() {
   return (
     <>
       <MainParallax />
-      {/* <Header /> */}
         <div className="App">
           <button 
             className="menu-button menu-button--full"
             onClick={() => setFullMenuVisible(!fullMenuVisible)}
-          >
+            >
             {fullMenuVisible ? "Close" : "Menu"}
           </button>
 
           <FullMenu style={fullMenuAnimation} />
         </div>
+          <Header />
+        {/* </MainParallax> */}
+        {/* <Router>
+          <Header />
+        <Switch>
+        </Switch>
+        </Router> */}
     </>    
   );
 }
