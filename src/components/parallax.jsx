@@ -11,33 +11,49 @@ import hill1 from '../images/hill1.png';
 import hill2 from '../images/hill2.png';
 import cloud1 from '../images/cloud1.png';
 import cloud2 from '../images/cloud2.png';
+import lefteye from '../images/lefteye.png';
+import righteye from '../images/righteye.png';
 
 class MainParallax extends React.Component {
     render() {
         return (
             <>
-            <Parallax vertical ref={(ref) => (this.parallax = ref)} pages={2} factor={1}>
+            <Parallax ref={(ref) => (this.parallax = ref)} pages={2} factor={1}>
                 <div className="stars">
                 <div className="twinkling">
-                    <ParallaxLayer offset={0} speed={1}  onClick={() => this.parallax.scrollTo(1)} >
+                    <ParallaxLayer 
+                        offset={0} 
+                        speed={1} 
+                        onClick={() => this.parallax.scrollTo(1)} >
                     </ParallaxLayer>
 
-                    <ParallaxLayer offset={0.5} speed={-0.1} style={{ pointerEvents: 'none' }} >
+                    <ParallaxLayer 
+                        offset={0.5} speed={-0.1} style={{ pointerEvents: 'none' }} >
                         <img src={satellite} alt="satellite" className="satellite" />
                     </ParallaxLayer>
 
-                    <ParallaxLayer offset={-0.2} speed={-0.1} style={{ pointerEvents: 'none' }} >
+                    <ParallaxLayer offset={-0.5} speed={-0.3} style={{ pointerEvents: 'none' }} >
                         <img src={moon} alt="moon" className="moon" />
                     </ParallaxLayer>
                 </div>
                 </div>
-                    <ParallaxLayer offset={1.05} speed={1} factor={1} onClick={() => this.parallax.scrollTo(0)}>
+                    <ParallaxLayer 
+                        offset={1.05} 
+                        speed={-0.4} 
+                        onClick={() => this.parallax.scrollTo(0)} >
                         <img src={sky} alt="sky" className="blue-sky" />
-                        {/* <Projects /> */}
                     </ParallaxLayer>
 
-                    <ParallaxLayer offset={1.0} speed={-0.1} style={{ pointerEvents: 'none' }} >
+                    <ParallaxLayer offset={1} speed={0.5} style={{ pointerEvents: 'none' }} >
                         <img src={sun} alt="sun" className="sun" />
+                    </ParallaxLayer>
+
+                    <ParallaxLayer offset={1} speed={0.5} style={{ pointerEvents: 'none' }} >
+                        <img src={lefteye} alt="leye" className="leye" />
+                    </ParallaxLayer>
+
+                    <ParallaxLayer offset={1} speed={0.5} style={{ pointerEvents: 'none' }} >
+                        <img src={righteye} alt="reye" className="reye" />
                     </ParallaxLayer>
 
                     <ParallaxLayer offset={0.8} speed={-0.1} >

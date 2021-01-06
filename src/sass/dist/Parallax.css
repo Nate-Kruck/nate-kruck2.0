@@ -59,20 +59,35 @@
 }
 
 .moon {
-  width: 17%;
-  margin-left: 86%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
 .blue-sky {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
 .sun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-top: -20%;
+}
+
+.reye {
+  margin-left: 10%;
+  margin-top: -13%;
   width: 50%;
-  margin-left: -10%;
-  margin-bottom: -44%;
-  z-index: 999;
+}
+
+.leye {
+  margin-left: 10%;
+  margin-top: -13%;
+  width: 50%;
 }
 
 .cloud1 {
