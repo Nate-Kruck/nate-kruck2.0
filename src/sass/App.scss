@@ -12,25 +12,17 @@
 }
 
 .header {
-  display: flex;
-  justify-content: space-around;
-  align-self: flex-start;
-  border: 2px dashed rgba(114, 186, 94, 0.35);
-  max-width: 1000px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   margin: 0 auto;
   padding: 10px;
-  background: rgba(114, 186, 94, 0.05);
+  z-index: 1;
+  text-align: center;
 }
-
-// .header--name {
-//   height: 50px;
-// }
 
 .header--name {
   font-family: cartoon-font;
   font-size: 4em;
   color: white;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 4;
 }

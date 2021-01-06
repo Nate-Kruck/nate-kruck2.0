@@ -2,7 +2,7 @@
   position: absolute;
   background-color: #037367;
   color: black;
-  z-index: 30;
+  z-index: 2;
 }
 
 .menu--full {
@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .menu-list {
@@ -41,7 +42,6 @@
 }
 
 .menu-button {
-  z-index: 40;
   border: none;
   position: fixed;
   top: 40px;
@@ -51,6 +51,7 @@
   background: none;
   background: #fff;
   color: #BEA42E;
+  z-index: 4;
 }
 
 .menu-button--full:hover {
