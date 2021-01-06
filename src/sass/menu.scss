@@ -9,7 +9,7 @@ $Sangria: #00281F;
     position: absolute;
     background-color: $Celadon;
     color: black;
-    z-index: 30;
+    z-index: 2;
 }
 
 .menu--full {
@@ -20,6 +20,7 @@ $Sangria: #00281F;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .menu-list {
@@ -49,7 +50,6 @@ $Sangria: #00281F;
 }
 
 .menu-button {
-    z-index: 40;
     border: none;
     position: fixed;
     top: 40px;
@@ -59,6 +59,7 @@ $Sangria: #00281F;
     background: none;
     background: #fff;
     color:  $Honey;
+    z-index: 4;
 }
 
 .menu-button--full:hover {
