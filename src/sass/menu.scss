@@ -9,7 +9,7 @@ $Sangria: #00281F;
     position: absolute;
     background-color: $Celadon;
     color: black;
-    
+    z-index: 2;
 }
 
 .menu--full {
@@ -20,6 +20,7 @@ $Sangria: #00281F;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .menu-list {

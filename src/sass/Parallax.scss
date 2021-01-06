@@ -7,7 +7,7 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-  }
+}
 
 .stars {
     background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
@@ -15,13 +15,14 @@
 
 .stars .twinkling {
     background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-
+    
     -moz-animation: move-twink-back 200s linear infinite;
     -ms-animation:move-twink-back 200s linear infinite;
     -o-animation:move-twink-back 200s linear infinite;
     -webkit-animation:move-twink-back 200s linear infinite;
     animation:move-twink-back 200s linear infinite;
 }
+
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
@@ -46,7 +47,39 @@
 }
 
 .moon {
-    width: 25%;
-    margin-left: 85%;
+    width: 17%;
+    margin-left: 86%;
 }
 
+.blue-sky {
+    width: 100%;
+    height: 100vh;
+}
+
+.sun {
+    width: 50%;
+    margin-left: -10%;
+    margin-bottom: -44%;
+    z-index: 999;
+}
+
+.cloud1 {
+    width: 70%;
+    margin-left: -5%;
+    margin-top: 9%;
+}
+
+.cloud2 {
+    width: 85%;
+    margin-left: 15%;
+}
+
+.hill1 {
+    width: 100%;
+  
+}
+
+.hill2 {
+    width: 100%;
+    
+}
