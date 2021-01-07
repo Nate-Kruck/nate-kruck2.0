@@ -12,15 +12,14 @@
 
 .header {
   position: fixed;
-  top: 0;
+  top: 10px;
   width: 100%;
   margin: 0 auto;
   padding: 10px;
-  z-index: 1;
   text-align: center;
 }
 
-.header--name {
+.header-name {
   font-family: cartoon-font;
   font-size: 4em;
   color: white;
