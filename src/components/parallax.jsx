@@ -13,6 +13,7 @@ import cloud1 from '../images/cloud1.png';
 import cloud2 from '../images/cloud2.png';
 import lefteye from '../images/lefteye.png';
 import righteye from '../images/righteye.png';
+import sign1 from '../images/sign1.png';
 
 class MainParallax extends React.Component {
     render() {
@@ -64,13 +65,20 @@ class MainParallax extends React.Component {
                         <img src={cloud2} alt="cloud2" className="cloud2" />
                     </ParallaxLayer>
 
+                    <div className="parent">
                     <ParallaxLayer offset={0.9} speed={0.2} style={{ pointerEvents: 'none' }} >
                         <img src={hill1} alt="hill" className="hill1" />
                     </ParallaxLayer>
+                    
+                    <ParallaxLayer offset={0.85} speed={-0.3} >
+                        <img src={sign1} alt="sign1" className="sign1" />
+                    </ParallaxLayer>
 
-                    <ParallaxLayer offset={0.86} speed={-0.1} style={{ pointerEvents: 'none' }} >
+                    <ParallaxLayer offset={0.96} speed={-0.1} style={{ pointerEvents: 'none' }} >
                         <img src={hill2} alt="hills" className="hill2" />
                     </ParallaxLayer>
+
+                    </div>
             </Parallax>
             </>
         )
