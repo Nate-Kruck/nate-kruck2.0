@@ -7,6 +7,7 @@
     bottom: 0;
     width: 100%;
     height: 100%;
+    z-index: 0;
 }
 
 .stars {
@@ -50,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 20%;
 }
 
 .blue-sky {
@@ -90,27 +91,36 @@
 }
 
 .parent {
+    position: relative;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+}
+
+.parent a {
     min-width: 100%;
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
 }
 
 .sign1 {
-    position: relative;
-    min-width: 100%;
-    min-height: 100%;
-    top: 0;
-    left: 0;
+    width: 50vw;
+    z-index: 4;
 }
+
 .hill1 {
-    position: relative;
-    min-height: 100%;
+    position: absolute;
     min-width: 100%;
-    // width: 100vw;
+    height: 0 auto;
+    bottom: -300px;
 }
 
 .hill2 {
     position: absolute;
-    min-height: 100%;
     min-width: 100%;
-    // width: 100vw;
+    height: 500px;
+    left: 0;
+    bottom: 0;
 }
 
