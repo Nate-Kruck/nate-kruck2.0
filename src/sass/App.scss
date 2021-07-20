@@ -1,6 +1,6 @@
 @font-face {
   font-family: cartoon-font;
-  src: url('../fonts/cartoon-font.otf')
+  src: url("../fonts/cartoon-font.otf");
 }
 
 *::-webkit-scrollbar {
@@ -17,12 +17,11 @@
   width: 100%;
   margin: 0 auto;
   padding: 10px;
-  // z-index: 1;
   text-align: center;
 }
 
 .header-name {
   font-family: cartoon-font;
-  font-size: 4em;
+  font-size: 3em;
   color: white;
 }

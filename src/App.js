@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import RubberBand from 'react-reveal/RubberBand';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { useSpring } from 'react-spring';
 import Header from './components/header';
@@ -15,24 +16,24 @@ function App() {
     opacity: fullMenuVisible ? 1 : 0
   });
 
-  
   return (
     <>
       <MainParallax />
         <div className="App">
-          <button 
-            className="menu-button menu-button--full"
-            onClick={() => setFullMenuVisible(!fullMenuVisible)}
-            >
-            {fullMenuVisible ? "Close" : "Menu"}
-          </button>
+          <RubberBand>
+            <button 
+              className="menu-button menu-button--full"
+              type="button"
+              onClick={() => setFullMenuVisible(!fullMenuVisible)}
+              >
+              {fullMenuVisible ? "Close" : "Menu"}
+            </button>
 
+          </RubberBand>
           <FullMenu style={fullMenuAnimation} />
         </div>
           <Header />
-        {/* </MainParallax> */}
         {/* <Router>
-          <Header />
         <Switch>
         </Switch>
         </Router> */}

@@ -102,36 +102,19 @@
   margin-left: 15%;
 }
 
-.parent {
-  position: relative;
-  width: 100vw;
-  top: 0;
-  bottom: 0;
-}
-
-.parent a {
-  min-width: 100%;
-  text-align: center;
-  z-index: 1;
-  text-decoration: none;
-}
-
-.sign1 {
-  width: 50vw;
-  z-index: 4;
-}
-
-.hill1 {
+.sign1-hill {
   position: absolute;
   min-width: 100%;
-  height: 0 auto;
-  bottom: -300px;
+  height: 900px;
+  bottom: -280px;
+  left: 0;
+  margin: 0 auto;
 }
 
-.hill2 {
+.sign2-hill {
   position: absolute;
   min-width: 100%;
-  height: 500px;
+  height: 700px;
   left: 0;
   bottom: 0;
 }
