@@ -79,18 +79,6 @@
   margin-top: -20%;
 }
 
-.reye {
-  margin-left: 10%;
-  margin-top: -13%;
-  width: 50%;
-}
-
-.leye {
-  margin-left: 10%;
-  margin-top: -13%;
-  width: 50%;
-}
-
 .cloud1 {
   width: 70%;
   margin-left: -5%;
@@ -100,21 +88,4 @@
 .cloud2 {
   width: 85%;
   margin-left: 15%;
-}
-
-.sign1-hill {
-  position: absolute;
-  min-width: 100%;
-  height: 900px;
-  bottom: -280px;
-  left: 0;
-  margin: 0 auto;
-}
-
-.sign2-hill {
-  position: absolute;
-  min-width: 100%;
-  height: 700px;
-  left: 0;
-  bottom: 0;
 }
