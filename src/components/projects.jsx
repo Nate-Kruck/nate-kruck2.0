@@ -1,4 +1,15 @@
 import React from 'react';
+
+import Thumbnail from './thumbnail';
+import networkr from '../images/networkr.png';
+import mood from '../images/mood.png';
+import '../sass/Projects.scss';
+
+function Projects() {
+    return(
+          <>
+            <Thumbnail
+
 // import Thumbnail from './thumbnail';
 // import networkr from '../images/networkr.png';
 // import mood from '../images/mood.png';
@@ -15,6 +26,7 @@ function Coffee() {
 export default Coffee;
 
             {/* <Thumbnail
+
                 link="https://networkr-be.herokuapp.com/"
                 image={networkr}
                 title="Content Hub for Alchemy Students"
@@ -26,7 +38,7 @@ export default Coffee;
                 title="Mood Music"
                 category=""
             />
-        </div>
+        </>
     )
 }
 
