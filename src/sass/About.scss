@@ -1,0 +1,77 @@
+$AquaPoise: #7bd4cc;
+$Honey: #bea42e;
+$Army: #7b895b;
+$Darkteal: #00abb2;
+$Sangria: #00281f;
+$Skyblue: #bcfdff;
+
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+p {
+  color: $Sangria;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 200px;
+  padding: 12px;
+  font-weight: 900;
+  background: rgba($Darkteal, 0.7);
+}
+
+// html {
+//   background: url(../images/nate.png);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+.container {
+  min-height: calc(100vh - 220px);
+}
+
+.ocean {
+  position: relative;
+  height: auto;
+  width: auto;
+  left: 0;
+  top: 0;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  color: $Sangria;
+  position: fixed;
+  top: 40px;
+  padding: 12px;
+  left: 40%;
+}
+
+.link a {
+  font-weight: 500;
+  border: none;
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  padding: 12px;
+  font-size: 1em;
+  background: none;
+  background: #fff;
+  color: $Darkteal;
+  border-radius: 5px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.link a:visited {
+  color: $Honey;
+}
+
+.link a:hover {
+  color: $Skyblue;
+}

@@ -6,7 +6,7 @@ import '../sass/App.scss';
 import satellite from '../images/satellite.png';
 import moon from '../images/moon.png';
 import sky from '../images/sky.png';
-import sun from '../images/sun.png';
+// import sun from '../images/sun.png';
 import cloud1 from '../images/cloud1.png';
 import cloud2 from '../images/cloud2.png';
 
@@ -42,9 +42,12 @@ class MainParallax extends React.Component {
                         <img src={sky} alt="sky" className="blue-sky" />
                     </ParallaxLayer>
 
-                    <ParallaxLayer offset={1.2} speed={0.5} >
+
+                    {/* Already have a sun included with the city so leaving this here incase I change my mind */}
+
+                    {/* <ParallaxLayer offset={1.2} speed={0.5} >
                         <img src={sun} alt="sun" className="sun" />
-                    </ParallaxLayer>
+                    </ParallaxLayer> */}
 
                     <ParallaxLayer offset={0.8} speed={-0.1} >
                         <img src={cloud1} alt="cloud1" className="cloud1" />

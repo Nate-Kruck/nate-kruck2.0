@@ -7,6 +7,7 @@ import { FullMenu } from './components/navigation';
 import MainParallax from './components/parallax';
 import './sass/App.scss';
 import './sass/menu.scss';
+import './sass/Parallax.scss'
 
 function App() {
   const [fullMenuVisible, setFullMenuVisible] = useState(false)
