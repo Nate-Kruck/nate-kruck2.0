@@ -1,7 +1,6 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 
-
 class Header extends React.Component {
     render() {
         return (
