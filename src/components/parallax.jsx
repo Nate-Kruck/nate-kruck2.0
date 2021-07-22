@@ -12,6 +12,7 @@ import cloud2 from '../images/cloud2.png';
 
 import city from '../images/city.png';
 
+
 class MainParallax extends React.Component {
     render() {
         return (
@@ -42,6 +43,11 @@ class MainParallax extends React.Component {
                         <img src={sky} alt="sky" className="blue-sky" />
                     </ParallaxLayer>
 
+
+                    {/* <ParallaxLayer offset={1.2} speed={0.5} >
+                        <img src={sun} alt="sun" className="sun" />
+                    </ParallaxLayer> */}
+
                     <ParallaxLayer offset={1.2} speed={0.5} >
                         <img src={sun} alt="sun" className="sun" />
                     </ParallaxLayer>
@@ -53,13 +59,12 @@ class MainParallax extends React.Component {
                     <ParallaxLayer offset={1.1} speed={-0.3} >
                         <img src={cloud2} alt="cloud2" className="cloud2" />
                     </ParallaxLayer>
-
                     
                     <ParallaxLayer offset={1.1} speed={-0.1} >
                         <img src={city} alt="city" className="city" />
                     </ParallaxLayer>
-
-            </Parallax>
+                </div>
+                </Parallax>
             </>
         )
     }
