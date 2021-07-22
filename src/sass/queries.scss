@@ -1,0 +1,313 @@
+$AquaPoise: #7bd4cc;
+$Honey: #bea42e;
+$Army: #7b895b;
+$Darkteal: #00abb2;
+$Sangria: #00281f;
+$Skyblue: #bcfdff;
+
+/* Ipad 768px */
+
+@media screen and (max-width: 768px) {
+  .header-name {
+    font-family: cartoon-font;
+    font-size: 5vw;
+    color: white;
+    margin-top: 80px;
+  }
+  button.menu-button {
+    border: none;
+    position: fixed;
+    top: 25px;
+    left: 83%;
+    padding: 12px;
+    font-size: 2rem;
+    background: none;
+    background: #fff;
+    z-index: 4;
+    border-radius: 5px;
+  }
+  .menu--full {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .menu a {
+    text-decoration: none;
+    color: $Darkteal;
+    font-weight: 800;
+  }
+  .menu a:hover,
+  .menu a:focus {
+    color: $Skyblue;
+  }
+  .city {
+    pointer-events: none;
+    width: 100%;
+    margin-top: 73%;
+  }
+}
+
+/* Iphone 5/SE 320px */
+@media screen and (max-width: 320px) {
+  html,
+  body {
+    width: 94%;
+  }
+  .header-name {
+    font-family: cartoon-font;
+    font-size: 5vw;
+    color: white;
+    width: 94%;
+  }
+  .city {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    pointer-events: none;
+    width: 100%;
+  }
+  button.menu-button.menu-button--full {
+    position: fixed;
+    top: 15px;
+    left: 75%;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: auto;
+    padding: auto;
+    z-index: 4;
+  }
+  .menu--full {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .menu a {
+    text-decoration: none;
+    color: $Darkteal;
+    font-weight: 600;
+  }
+  .menu a:hover,
+  .menu a:focus {
+    color: $Skyblue;
+  }
+  .menu-button--full:hover {
+    background: $Skyblue;
+  }
+  .menu-list-item--full {
+    font-size: 2em;
+    margin: 40px 0;
+  }
+  .moon {
+    position: relative;
+    width: 35%;
+  }
+  .satellite {
+    width: 25%;
+    margin-left: 55%;
+  }
+}
+
+/* Iphone 6/7/8 375px */
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    width: 94%;
+  }
+  .header-name {
+    font-family: cartoon-font;
+    font-size: 1.3em;
+    color: white;
+    width: 94%;
+  }
+  .city {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    pointer-events: none;
+    width: 100%;
+  }
+  button.menu-button {
+    position: fixed;
+    top: 20px;
+    left: 77%;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: auto;
+    padding: auto;
+    z-index: 4;
+  }
+  .menu--full {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .menu a {
+    text-decoration: none;
+    color: $Darkteal;
+    font-weight: 600;
+  }
+  .menu a:hover,
+  .menu a:focus {
+    color: $Skyblue;
+  }
+  .menu-button--full:hover {
+    background: $Skyblue;
+  }
+  .menu-list-item--full {
+    font-size: 2em;
+    margin: 40px 0;
+  }
+  .moon {
+    position: relative;
+    width: 35%;
+  }
+  .satellite {
+    width: 25%;
+    margin-left: 55%;
+  }
+}
+
+/* Iphone 6/7/8 plus 414px */
+@media screen and (max-width: 414px) {
+  html,
+  body {
+    width: 94%;
+  }
+  div.header-name {
+    font-family: cartoon-font;
+    font-size: 5vw;
+    color: white;
+    width: 94%;
+  }
+  .city {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    pointer-events: none;
+    width: 100%;
+  }
+  button.menu-button {
+    position: fixed;
+    top: 20px;
+    left: 77%;
+    font-size: 5vw;
+    border-radius: 5px;
+    margin: auto;
+    padding: auto;
+    z-index: 4;
+  }
+  .menu--full {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .menu a {
+    text-decoration: none;
+    color: $Darkteal;
+    font-weight: 600;
+  }
+  .menu a:hover,
+  .menu a:focus {
+    color: $Skyblue;
+  }
+  .menu-button--full:hover {
+    background: $Skyblue;
+  }
+  .menu-list-item--full {
+    font-size: 2em;
+    margin: 40px 0;
+  }
+  .moon {
+    position: relative;
+    width: 35%;
+  }
+  .satellite {
+    width: 25%;
+    margin-left: 55%;
+  }
+}
+
+/* Iphone X 375px */
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    width: 94%;
+  }
+  div.header-name {
+    font-family: cartoon-font;
+    font-size: 5vw;
+    color: white;
+    width: 94%;
+  }
+  div.city {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    pointer-events: none;
+    width: 100%;
+  }
+  button.menu-button {
+    position: fixed;
+    top: 20px;
+    left: 77%;
+    font-size: 5vw;
+    border-radius: 5px;
+    margin: auto;
+    padding: auto;
+    z-index: 4;
+  }
+  .menu--full {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .menu a {
+    text-decoration: none;
+    color: $Darkteal;
+    font-weight: 600;
+  }
+  .menu a:hover,
+  .menu a:focus {
+    color: $Skyblue;
+  }
+  .menu-button--full:hover {
+    background: $Skyblue;
+  }
+  .menu-list-item--full {
+    font-size: 2em;
+    margin: 40px 0;
+  }
+  .moon {
+    position: relative;
+    width: 35%;
+  }
+  .satellite {
+    width: 25%;
+    margin-left: 55%;
+  }
+}

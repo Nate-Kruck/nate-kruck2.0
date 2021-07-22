@@ -15,7 +15,7 @@ export const FullMenu = ({ style }) => (
                 <a href="/">Home</a>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/about">About</a>
+                    <a href="/about">About Me</a>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
                     <a href="/projects">Projects</a>

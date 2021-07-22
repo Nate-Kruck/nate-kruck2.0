@@ -10,5 +10,8 @@ class Header extends React.Component {
                         <h1>Nathan Town</h1>
                     </Zoom>
                 </div>
-
+            </div>
+        )
+    }
+}
 export default Header;
