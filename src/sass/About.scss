@@ -21,16 +21,9 @@ p {
   background: rgba($Darkteal, 0.7);
 }
 
-// html {
-//   background: url(../images/nate.png);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
+// .container {
+//   overflow: hidden;
 // }
-
-.container {
-  min-height: calc(100vh - 220px);
-}
 
 .ocean {
   position: relative;
@@ -38,6 +31,7 @@ p {
   width: auto;
   left: 0;
   top: 0;
+  overflow: hidden;
 }
 
 .about-me {
@@ -49,7 +43,7 @@ p {
   position: fixed;
   top: 40px;
   padding: 12px;
-  left: 40%;
+  // left: 40%;
 }
 
 .link a {

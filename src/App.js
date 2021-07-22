@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import RubberBand from 'react-reveal/RubberBand';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { useSpring } from 'react-spring';
 import Header from './components/header';
 import { FullMenu } from './components/navigation';
 import MainParallax from './components/parallax';
 import './sass/App.scss';
 import './sass/menu.scss';
-import './sass/Parallax.scss'
+import './sass/Parallax.scss';
+import './sass/queries.scss';
 
 function App() {
   const [fullMenuVisible, setFullMenuVisible] = useState(false)
@@ -19,26 +19,22 @@ function App() {
 
   return (
     <>
-      <MainParallax />
-        <div className="App">
-          <RubberBand>
-            <button 
-              className="menu-button menu-button--full"
-              type="button"
-              onClick={() => setFullMenuVisible(!fullMenuVisible)}
-              >
-              {fullMenuVisible ? "Close" : "Menu"}
-            </button>
+        <MainParallax />
+          <div className="App">
+            <RubberBand>
+              <button 
+                className="menu-button menu-button--full"
+                type="button"
+                onClick={() => setFullMenuVisible(!fullMenuVisible)}
+                >
+                {fullMenuVisible ? "Close" : "Menu"}
+              </button>
 
-          </RubberBand>
-          <FullMenu style={fullMenuAnimation} />
-        </div>
-          <Header />
-        {/* <Router>
-        <Switch>
-        </Switch>
-        </Router> */}
-    </>    
+            </RubberBand>
+            <FullMenu style={fullMenuAnimation} />
+          </div>
+            <Header />
+    </>
   );
 }
 

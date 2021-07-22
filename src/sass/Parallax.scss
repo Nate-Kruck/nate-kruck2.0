@@ -1,3 +1,7 @@
+// * {
+//   box-sizing: border-box;
+// }
+
 // stars + twinkling backround for parallax
 
 .stars,
@@ -78,6 +82,7 @@
 .satellite {
   width: 10%;
   margin-left: 70%;
+  margin-top: -90px;
 }
 
 .moon {
@@ -97,14 +102,6 @@
   min-height: 100%;
 }
 
-.sun {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 50%;
-  margin-top: -20%;
-}
-
 .cloud1 {
   width: 70%;
   margin-left: -5%;
@@ -117,10 +114,8 @@
 }
 
 .city {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  bottom: 75px;
   pointer-events: none;
   width: 100%;
-  margin-top: 20%;
 }

@@ -4,19 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Maintenance from './Maintenance';
 import About from './components/about';
 
+const ThemeContext = React.createContext('rubberband');
+
 ReactDOM.render(
-  <Router>
-    <Switch>
-      <Route exact path="/about" component={About}/>
-  <React.StrictMode>
-    {/* <Maintenance /> */}
-    <App />
-  </React.StrictMode>,
-   </Switch>
-  </Router>,
+   <ThemeContext.Provider value="wasted">
+      <Router>
+        <Switch>
+          <Route exact path="/about" component={About}/>
+          <App />
+        </Switch>
+      </Router>
+    </ThemeContext.Provider>,
   document.getElementById('root')
 );
 

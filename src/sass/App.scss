@@ -3,6 +3,11 @@
   src: url("../fonts/cartoon-font.otf");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 *::-webkit-scrollbar {
   display: none;
 }
@@ -15,16 +20,14 @@
   position: fixed;
   top: 10px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   padding: 10px;
-
   z-index: 1;
-
   text-align: center;
 }
 
 .header-name {
   font-family: cartoon-font;
-  font-size: 3em;
+  font-size: 3vw;
   color: white;
 }
