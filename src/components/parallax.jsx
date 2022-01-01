@@ -23,14 +23,14 @@ class MainParallax extends React.Component {
                                 speed={1} 
                                 onClick={() => this.parallax.scrollTo(1)    } >
                             </ParallaxLayer>
-
+                            
                             <ParallaxLayer 
-                                offset={0.5} speed={-0.1} >
+                                offset={0.2} speed={-0.1} >
                                 <img src={satellite} alt="satellite"    className="satellite" />
                             </ParallaxLayer>
 
                             <ParallaxLayer 
-                                offset={-0.4} speed={-0.3} >
+                                offset={-0.42} speed={-0.3} >
                                 <img src={moon} alt="moon"  className="moon" />
                             </ParallaxLayer>
                     </div>
