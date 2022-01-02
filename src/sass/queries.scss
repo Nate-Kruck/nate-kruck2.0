@@ -23,7 +23,7 @@ $Skyblue: #bcfdff;
     font-size: 2rem;
     background: none;
     background: #fff;
-    z-index: 4;
+    z-index: 3;
     border-radius: 5px;
   }
   .menu--full {
@@ -35,6 +35,7 @@ $Skyblue: #bcfdff;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    font-size: 10px;
   }
   .menu a {
     text-decoration: none;
@@ -49,6 +50,13 @@ $Skyblue: #bcfdff;
     pointer-events: none;
     width: 100%;
     margin-top: 73%;
+  }
+  .icon-images {
+    display: flex;
+    height: 7px;
+    width: 75px;
+    align-items: center;
+    cursor: pointer;
   }
 }
 

@@ -4,6 +4,7 @@ $Army: #7b895b;
 $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
+$MidnightPurple: #912588;
 
 * {
   box-sizing: border-box;
@@ -13,7 +14,7 @@ $Skyblue: #bcfdff;
 .menu {
   position: absolute;
   background-color: $Skyblue;
-  z-index: 2;
+  z-index: 3;
 }
 
 .menu--full {
@@ -25,6 +26,13 @@ $Skyblue: #bcfdff;
   justify-content: center;
   align-items: center;
   z-index: 2;
+  font-size: 10px;
+}
+
+.menu-background {
+  position: fixed;
+  height: 100vh;
+  width: auto;
 }
 
 .menu-list {

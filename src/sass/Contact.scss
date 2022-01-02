@@ -1,0 +1,109 @@
+$AquaPoise: #7bd4cc;
+$Honey: #bea42e;
+$Army: #7b895b;
+$Darkteal: #00abb2;
+$Sangria: #00281f;
+$Skyblue: #bcfdff;
+$MidnightPurple: #912588;
+
+.contact-body {
+  height: 100vh;
+  background-color: black;
+  text-shadow: rgb(196, 15, 15) 0px 0px 3px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+  color: $Darkteal;
+  padding: 25px;
+  background-color: black;
+  height: 50vh;
+  width: 50vw;
+  transform: translate(50%, 50%);
+  border-radius: 230px;
+  box-shadow: 0px 0px 52px #ed5ae1a9, 0px 0px 15px #5aede17e;
+}
+
+.icon-images {
+  display: flex;
+  height: 85px;
+  width: 85px;
+  align-items: center;
+  border-style: groove;
+  border-radius: 45px;
+  border-color: $MidnightPurple;
+}
+
+.icon-images:hover {
+  height: 95px;
+  width: 95px;
+  box-shadow: 0px 0px 22px #ed5ae1a9, 0px 0px 15px #5aede17e;
+  border-radius: 50px;
+}
+
+.stars,
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.stars {
+  background: #000
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+}
+
+.stars .twinkling {
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    top center;
+
+  -moz-animation: move-twink-back 200s linear infinite;
+  -ms-animation: move-twink-back 200s linear infinite;
+  -o-animation: move-twink-back 200s linear infinite;
+  -webkit-animation: move-twink-back 200s linear infinite;
+  animation: move-twink-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-moz-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-ms-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}

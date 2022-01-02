@@ -1,3 +1,4 @@
+import '../sass/queries.scss';
 
 function Item(props)
 {
