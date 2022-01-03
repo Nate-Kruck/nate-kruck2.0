@@ -24,11 +24,19 @@ $MidnightPurple: #912588;
   height: 50vh;
   width: 50vw;
   transform: translate(50%, 50%);
+
+  border-radius: 250px;
+  box-shadow: 0px 0px 52px #ed5ae1a9, 0px 0px 15px #5aede17e;
+}
+
+.icon-images1 {
+
   border-radius: 230px;
   box-shadow: 0px 0px 52px #ed5ae1a9, 0px 0px 15px #5aede17e;
 }
 
 .icon-images {
+
   display: flex;
   height: 85px;
   width: 85px;
@@ -36,7 +44,79 @@ $MidnightPurple: #912588;
   border-style: groove;
   border-radius: 45px;
   border-color: $MidnightPurple;
+
+  // -webkit-animation: icon-images 60s linear infinite; /* Chrome, Safari 5 */
+  // -moz-animation: icon-images 60s linear infinite; /* Firefox 5-15 */
+  // -o-animation: icon-images 60s linear infinite; /* Opera 12+ */
+  // animation: icon-images 60s linear infinite; /* Chrome, Firefox 16+,
+  //                                                       IE 10+, Safari 5 */
 }
+.icon-images2 {
+  display: flex;
+  height: 85px;
+  width: 85px;
+  align-items: center;
+  border-style: groove;
+  border-radius: 45px;
+  border-color: $MidnightPurple;
+  // -webkit-animation: icon-images 45s linear infinite; /* Chrome, Safari 5 */
+  // -moz-animation: icon-images 45s linear infinite; /* Firefox 5-15 */
+  // -o-animation: icon-images 45s linear infinite; /* Opera 12+ */
+  // animation: icon-images 45s linear infinite; /* Chrome, Firefox 16+,
+  //                                                       IE 10+, Safari 5 */
+}
+.icon-images3 {
+  display: flex;
+  height: 85px;
+  width: 85px;
+  align-items: center;
+  border-style: groove;
+  border-radius: 45px;
+  border-color: $MidnightPurple;
+  // -webkit-animation: icon-images 100s linear infinite; /* Chrome, Safari 5 */
+  // -moz-animation: icon-images 100s linear infinite; /* Firefox 5-15 */
+  // -o-animation: icon-images 100s linear infinite; /* Opera 12+ */
+  // animation: icon-images 100s linear infinite; /* Chrome, Firefox 16+,
+  //                                                       IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes icon-images {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes icon-images {
+  from {
+    -moz-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes icon-images {
+  from {
+    -o-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@keyframes icon-images {
+  from {
+    transform: rotate(0deg) translateX(350px) rotate(0deg);
+  }
+  to {
+    transform: rotate(220deg) translateX(350px) rotate(180deg);
+  }
+}
+
+
 
 .icon-images:hover {
   height: 95px;
