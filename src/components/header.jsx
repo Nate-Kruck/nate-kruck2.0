@@ -7,7 +7,7 @@ class Header extends React.Component {
             <div className="header">
                 <div className="header header-name">
                     <Zoom top cascade>
-                        <h1>Nathan Town</h1>
+                        <h1>Nathan's World</h1>
                     </Zoom>
                 </div>
             </div>

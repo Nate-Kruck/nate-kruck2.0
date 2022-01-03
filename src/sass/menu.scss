@@ -5,6 +5,7 @@ $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
 $MidnightPurple: #912588;
+$Black: #000000;
 
 * {
   box-sizing: border-box;
@@ -13,7 +14,7 @@ $MidnightPurple: #912588;
 // menu styles
 .menu {
   position: absolute;
-  background-color: $Skyblue;
+  background-color: $Black;
   z-index: 3;
 }
 
@@ -53,7 +54,7 @@ $MidnightPurple: #912588;
 
 .menu a:hover,
 .menu a:focus {
-  color: $Honey;
+  color: #75468a;
 }
 
 // button styles
@@ -69,14 +70,15 @@ button.menu-button {
   right: 20px;
   padding: 12px;
   font-size: 2vw;
-  background: none;
-  background: #fff;
-  color: $Darkteal;
+  background: #75468a;
+  color: $Black;
   z-index: 4;
   border-radius: 5px;
   font-weight: 100px;
+  box-shadow: 0px 0px 32px #ed5ae1a9, 0px 0px 10px #5aede17e;
 }
 
 .menu-button--full:hover {
-  background: $Skyblue;
+  background: $Black;
+  color: whitesmoke;
 }
