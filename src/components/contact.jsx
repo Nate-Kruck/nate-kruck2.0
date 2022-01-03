@@ -27,9 +27,12 @@ const Contact = () => {
 
             {/* <h1 className="contact-me">Contact</h1> */}
             
+
             <a className='contact-icons' href='https://github.com/Nate-Kruck' target='blank'><img className='icon-images1' src={github} alt="github"/></a>
             <a className='contact-icons' href='https://www.linkedin.com/feed/' target='blank'><img className='icon-images2' src={linkdin} alt="linkedin" /></a>
             <a className='contact-icons' href='mailto:natekruck@outlook.com' target='blank'><img className='icon-images3' src={email} alt="email"/></a>
+
+           
 
         </div>
         </div>

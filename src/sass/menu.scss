@@ -7,6 +7,8 @@ $Skyblue: #bcfdff;
 $MidnightPurple: #912588;
 $Black: #000000;
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -15,6 +17,7 @@ $Black: #000000;
 .menu {
   position: absolute;
   background-color: $Black;
+  background-color: $Skyblue;
   z-index: 3;
 }
 
