@@ -10,6 +10,10 @@ $MidnightPurple: #912588;
   box-sizing: border-box;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 // menu styles
 .menu {
   position: absolute;
@@ -48,13 +52,13 @@ $MidnightPurple: #912588;
 
 .menu a {
   text-decoration: none;
-  color: $Darkteal;
+  color: #713797;
   font-weight: 600;
 }
 
 .menu a:hover,
 .menu a:focus {
-  color: #65467c;
+  color: #c271ff;
 }
 
 // button styles
@@ -71,7 +75,7 @@ button.menu-button {
   padding: 12px;
   font-size: 2vw;
   background: none;
-  background: #65467c;
+  background: #9444c9;
   color: black;
   z-index: 4;
   border-radius: 5px;

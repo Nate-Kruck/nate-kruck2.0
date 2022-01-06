@@ -5,11 +5,15 @@ $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
 $MidnightPurple: #912588;
+$DarkPurple: #8c2eb1;
+
+@font-face {
+  font-family: hanging-font;
+  src: url("../fonts/hanging-letters.ttf");
+}
 
 .contact-body {
   height: 100vh;
-  background-color: black;
-  text-shadow: rgb(196, 15, 15) 0px 0px 3px;
 }
 
 .contact-container {
@@ -18,7 +22,6 @@ $MidnightPurple: #912588;
   align-items: center;
   justify-content: space-evenly;
   font-size: 1.4rem;
-  color: $Darkteal;
   padding: 25px;
   background-color: black;
   height: 50vh;
@@ -43,6 +46,36 @@ $MidnightPurple: #912588;
   width: 95px;
   box-shadow: 0px 0px 22px #ed5ae1a9, 0px 0px 15px #5aede17e;
   border-radius: 50px;
+}
+
+.resume {
+  font-family: hanging-font !important;
+  font-weight: 550;
+  letter-spacing: 0.2em;
+  // border: none;
+  padding: 15px;
+  font-size: 1.64em;
+  // background: gray;
+  color: #7a3faa;
+  // border-radius: 5px;
+  text-decoration: none;
+  align-self: center;
+  font-family: inherit;
+  text-shadow: #000000a9 1px 1px 1px, #8c2eb1 1px 2px 1px, #8c2eb1 1px 3px 1px,
+    rgba(225, 0, 255, 0.3) 1px 12px 6px, rgba(16, 16, 16, 0.2) 1px 22px 10px,
+    rgba(16, 16, 16, 0.2) 1px 26px 35px, rgba(16, 16, 16, 0.4) 1px 30px 65px;
+  &:hover {
+    margin-top: 15px;
+    text-shadow: white 0.001em 0.001em 0.001em, $DarkPurple 1px 1px 1px,
+      $DarkPurple 1px 2px 1px, $DarkPurple 1px 3px 1px, $DarkPurple 1px 1px 1px,
+      rgb(16, 16, 16) 1px 38px 26px, rgba(16, 16, 16, 0.2) 1px 42px 30px,
+      rgb(16, 16, 16) 1px 46px 65px, rgba(16, 16, 16, 0.4) 1px 50px 95px,
+      $DarkPurple 0.15em -0.1em 20px;
+  }
+}
+
+.resume:hover {
+  color: #000000;
 }
 
 .stars,

@@ -4,68 +4,60 @@ $Army: #7b895b;
 $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
+$MidnightPurple: #912588;
 
-body,
-html {
-  height: 100%;
-  overflow: hidden;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  padding: 100px;
+}
+
+h3 {
+  color: #9444c9;
+}
+
+.name {
+  color: whitesmoke;
 }
 
 p {
-  color: $Sangria;
-  font-size: 1.5rem;
-  position: fixed;
-  top: 200px;
+  color: #9444c9;
+  font-size: 1rem;
   padding: 12px;
   font-weight: 900;
-  background: rgba($Darkteal, 0.7);
-}
-
-// .container {
-//   overflow: hidden;
-// }
-
-.ocean {
-  position: relative;
-  height: auto;
-  width: auto;
-  left: 0;
-  top: 0;
-  overflow: hidden;
+  text-align: center;
 }
 
 .about-me {
-  display: flex;
   align-items: center;
   text-align: center;
   font-size: 5rem;
-  color: $Sangria;
-  position: fixed;
   top: 40px;
-  padding: 12px;
-  // left: 40%;
+  padding: 5px;
+  opacity: 1;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(#000000, #9444c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.link a {
-  font-weight: 500;
-  border: none;
-  position: fixed;
-  top: 40px;
-  left: 20px;
-  padding: 12px;
-  font-size: 1em;
-  background: none;
-  background: #fff;
-  color: $Darkteal;
-  border-radius: 5px;
+.icon-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-icons {
+  height: 50px;
+  width: 50px;
+  margin: 30px;
+}
+
+.wedding-site {
   text-decoration: none;
-  z-index: 3;
-}
-
-.link a:visited {
-  color: $Honey;
-}
-
-.link a:hover {
-  color: $Skyblue;
+  color: whitesmoke;
 }
