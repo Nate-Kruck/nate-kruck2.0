@@ -12,6 +12,7 @@ import html5 from '../images/javascript.png';
 import markdown from '../images/markdown.png';
 import java from '../images/java.png';
 import design from '../images/design.png';
+import api from '../images/api.png';
 
 const About = () => {
     
@@ -52,6 +53,7 @@ const About = () => {
                 <img className='tech-icons' src={markdown} alt='markdown'></img>
                 <img className='tech-icons' src={java} alt='java'></img>
                 <img className='tech-icons' src={design} alt='design'></img>
+                <img className='tech-icons' src={api} alt='api'></img>
             </div>
 
         </div>
