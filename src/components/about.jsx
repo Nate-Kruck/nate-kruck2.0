@@ -10,7 +10,7 @@ import react from '../images/react.png';
 import githubgradient from '../images/githubgradient.png';
 import html5 from '../images/javascript.png';
 import markdown from '../images/markdown.png';
-import api from '../images/api.png';
+import myapi from '../images/myapi.png';
 import java from '../images/java.png';
 import design from '../images/design.png';
 
@@ -51,7 +51,7 @@ const About = () => {
                 <img className='tech-icons' src={githubgradient} alt='githubgradient'></img>
                 <img className='tech-icons' src={html5} alt='html5'></img>
                 <img className='tech-icons' src={markdown} alt='markdown'></img>
-                <img className='tech-icons' src={api} alt='api'></img>
+                <img className='tech-icons' src={myapi} alt='api'></img>
                 <img className='tech-icons' src={java} alt='java'></img>
                 <img className='tech-icons' src={design} alt='design'></img>
             </div>
