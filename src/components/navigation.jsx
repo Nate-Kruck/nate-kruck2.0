@@ -3,6 +3,7 @@ import React from 'react';
 import { animated } from 'react-spring';
 import '../sass/menu.scss';
 import RubberBand from 'react-reveal/RubberBand';
+import { Link } from 'react-router-dom';
 
 // Navigation component that renders an animation from react-spring
 
@@ -12,16 +13,16 @@ export const FullMenu = ({ style }) => (
         <RubberBand>
             <ul className="menu-list menu-list--full">
                 <li className="menu-list-item menu-list-item--full">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/about">About Me</a>
+                    <Link to="/about">About Me</Link>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/projects">Projects</a>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li className="menu-list-item menu-list-item--full">
-                    <a href="/contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </RubberBand>
