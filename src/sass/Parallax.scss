@@ -16,18 +16,6 @@
   z-index: 0;
 }
 
-.stars,
-.twinkling {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
 .stars {
   background: #000
     url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
@@ -80,16 +68,14 @@
 }
 
 .satellite {
-  width: 10%;
+  width: 22%;
   margin-left: 70%;
   margin-top: -90px;
 }
 
 .moon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
+  width: 30%;
+  margin-left: -10px;
 }
 
 .blue-sky {
