@@ -12,6 +12,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@use-gesture/react": "^10.2.4",
+    "netlify-cli": "^8.6.12",
     "node-sass": "^7.0.1",
     "react": "^17.0.1",
     "react-carousel-minimal": "^1.4.1",

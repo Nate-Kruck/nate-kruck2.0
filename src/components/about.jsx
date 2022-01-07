@@ -6,13 +6,13 @@ import RubberBand from 'react-reveal/RubberBand';
 import { useSpring } from 'react-spring';
 import { FullMenu } from '../components/navigation';
 import javascript from '../images/javascript.png';
-import react from '../images/react.png';
-import githubgradient from '../images/githubgradient.png';
-import html5 from '../images/javascript.png';
-import markdown from '../images/markdown.png';
-import java from '../images/java.png';
-import design from '../images/design.png';
-import api from '../images/api.png';
+import react from '../images/react.png?nf_resize=fit&w=300&h=400';
+import githubgradient from '../images/githubgradient.png?nf_resize=fit&w=300&h=400';
+import html5 from '../images/javascript.png?nf_resize=fit&w=300&h=400';
+import markdown from '../images/markdown.png?nf_resize=fit&w=300&h=400';
+import java from '../images/java.png?nf_resize=fit&w=300&h=400';
+import design from '../images/design.png?nf_resize=fit&w=300&h=400';
+import api from '../images/api.png?nf_resize=fit&w=300&h=400';
 
 const About = () => {
     
