@@ -5,6 +5,59 @@ $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
 
+@media (max-width: 500px) {
+  body {
+    width: 100vw !important;
+  }
+
+  .about-me {
+    font-size: 3rem !important;
+  }
+
+  p {
+    font-size: 13px !important;
+  }
+
+  .container {
+    display: flex !important;
+    height: 100vh !important;
+    padding: 3px !important;
+  }
+
+  .tech-icons {
+    height: 35px !important;
+    width: 35px !important;
+  }
+
+  .carousel-project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding-bottom: 20px;
+    font-size: 7px !important;
+    text-align: center;
+    padding: 10px;
+    align-items: center !important;
+    width: 100vw !important;
+  }
+
+  .projectImage {
+    height: 150px !important;
+    width: 250px !important;
+  }
+
+  .contact-container {
+    height: 50vh !important;
+    width: 89vw !important;
+    font-size: 0.9rem !important;
+    transform: translate(7%, 35%) !important;
+  }
+
+  .icon-images {
+    height: 50px !important;
+    width: 50px !important;
+  }
+}
 /* Ipad 768px */
 
 @media screen and (max-width: 768px) {

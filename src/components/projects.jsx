@@ -6,7 +6,6 @@ import { FullMenu } from '../components/navigation';
 import '../sass/Projects.scss';
 import Carousel from "react-material-ui-carousel";
 import Item from "../hooks/Item";
-import tech from '../videos/tech.mp4';
 
 
 function Projects(props) {
@@ -21,10 +20,10 @@ function Projects(props) {
     
     return (
             <>
-      <video className="tech" autoPlay loop muted>
-          <source src={tech}type="video/mp4"/>
-      </video> 
-            
+            <div className="stars">
+            <div className="twinkling">
+            </div>
+            </div>
             <RubberBand>
               <button 
                 className="menu-button menu-button--full"
