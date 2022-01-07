@@ -8,6 +8,11 @@ $Skyblue: #bcfdff;
 @media (max-width: 500px) {
   body {
     width: 100vw !important;
+    height: 100vh !important;
+  }
+
+  div.header-name {
+    font-size: 4.5vw !important;
   }
 
   .about-me {
@@ -22,6 +27,7 @@ $Skyblue: #bcfdff;
     display: flex !important;
     height: 100vh !important;
     padding: 3px !important;
+    overflow: scroll;
   }
 
   .tech-icons {
