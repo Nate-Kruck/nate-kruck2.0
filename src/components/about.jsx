@@ -8,7 +8,7 @@ import { FullMenu } from '../components/navigation';
 import javascript from '../images/javascript.png';
 import react from '../images/react.png';
 import githubgradient from '../images/githubgradient.png';
-import html5 from '../images/javascript.png';
+import html5 from '../images/html5.png';
 import markdown from '../images/markdown.png';
 import java from '../images/java.png';
 import design from '../images/design.png';

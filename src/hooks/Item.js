@@ -17,9 +17,6 @@ function Item(props)
             </button>
             </a>
         </div>
-        {/* <div className="project-description">
-        <p>{props.item.description}</p>
-        </div> */}
         </div>
         </div>
         </>
