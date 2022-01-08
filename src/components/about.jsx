@@ -42,7 +42,7 @@ const About = () => {
             </p>
             <p>
                Currently working on personal projects, like my 
-               <a className="wedding-site" href='https://www.willowandnathan.com' alt="wedding" target="blank"><Bounce bottom cascade>wedding website.</Bounce>
+               <a className="wedding-site" href='https://www.willowandnathan.com' alt="wedding" target="blank"> wedding website.
                </a> I enjoy bringing webpages to life and creating an enjoyable user experience. 
             </p>
             <div className='icon-group'>

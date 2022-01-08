@@ -5,6 +5,9 @@ $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
 $MidnightPurple: #912588;
+$duration: 5s;
+$text-color: rgba(255, 255, 255, 0.3);
+$bgr-color: #333;
 
 .container {
   display: flex;
@@ -17,10 +20,6 @@ $MidnightPurple: #912588;
 
 h3 {
   color: #9444c9;
-}
-
-.name {
-  color: whitesmoke;
 }
 
 p {
@@ -59,5 +58,65 @@ p {
 
 .wedding-site {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(132, 144, 245);
+  line-break: normal;
+  cursor: pointer;
+}
+
+.wedding-site:hover {
+  background: #222 -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#222),
+      to(#222),
+      color-stop(0.5, #fff)
+    ) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(
+    -40deg,
+    transparent 0%,
+    transparent 40%,
+    #fff 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  -webkit-background-size: 200px;
+  color: $text-color;
+  -webkit-background-clip: text;
+  -webkit-animation-name: shine;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-iteration-count: infinite;
+  text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes shine {
+  0%,
+  10% {
+    background-position: -1000px;
+  }
+  20% {
+    background-position: top left;
+  }
+  90% {
+    background-position: top right;
+  }
+  100% {
+    background-position: 1000px;
+  }
+}
+
+@-webkit-keyframes shine {
+  0%,
+  10% {
+    background-position: -1000px;
+  }
+  20% {
+    background-position: top left;
+  }
+  90% {
+    background-position: top right;
+  }
+  100% {
+    background-position: 1000px;
+  }
 }
