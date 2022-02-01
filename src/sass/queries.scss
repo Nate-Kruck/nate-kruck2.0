@@ -4,6 +4,7 @@ $Army: #7b895b;
 $Darkteal: #00abb2;
 $Sangria: #00281f;
 $Skyblue: #bcfdff;
+$MidnightPurple: #912588;
 
 @media (max-width: 500px) {
   body {
@@ -81,7 +82,7 @@ $Skyblue: #bcfdff;
     padding: 12px;
     font-size: 2rem;
     background: none;
-    background: #fff;
+    background: $MidnightPurple;
     z-index: 3;
     border-radius: 5px;
   }
@@ -98,12 +99,12 @@ $Skyblue: #bcfdff;
   }
   .menu a {
     text-decoration: none;
-    color: $Darkteal;
+    color: #fff;
     font-weight: 800;
   }
   .menu a:hover,
   .menu a:focus {
-    color: $Skyblue;
+    color: #fff;
   }
   .city {
     pointer-events: none;
@@ -160,15 +161,15 @@ $Skyblue: #bcfdff;
   }
   .menu a {
     text-decoration: none;
-    color: $Darkteal;
+    color: $MidnightPurple;
     font-weight: 600;
   }
   .menu a:hover,
   .menu a:focus {
-    color: $Skyblue;
+    color: $MidnightPurple;
   }
   .menu-button--full:hover {
-    background: $Skyblue;
+    background: $MidnightPurple;
   }
   .menu-list-item--full {
     font-size: 2em;
@@ -225,15 +226,15 @@ $Skyblue: #bcfdff;
   }
   .menu a {
     text-decoration: none;
-    color: $Darkteal;
+    color: $MidnightPurple;
     font-weight: 600;
   }
   .menu a:hover,
   .menu a:focus {
-    color: $Skyblue;
+    color: $MidnightPurple;
   }
   .menu-button--full:hover {
-    background: $Skyblue;
+    background: $MidnightPurple;
   }
   .menu-list-item--full {
     font-size: 2em;
@@ -277,6 +278,7 @@ $Skyblue: #bcfdff;
     margin: auto;
     padding: auto;
     z-index: 4;
+    color: black;
   }
   .menu--full {
     width: 100%;
@@ -290,15 +292,15 @@ $Skyblue: #bcfdff;
   }
   .menu a {
     text-decoration: none;
-    color: $Darkteal;
+    color: $MidnightPurple !important;
     font-weight: 600;
   }
   .menu a:hover,
   .menu a:focus {
-    color: $Skyblue;
+    color: $MidnightPurple;
   }
   .menu-button--full:hover {
-    background: $Skyblue;
+    background: $MidnightPurple;
   }
   .menu-list-item--full {
     font-size: 2em;
@@ -355,15 +357,15 @@ $Skyblue: #bcfdff;
   }
   .menu a {
     text-decoration: none;
-    color: $Darkteal;
+    color: $MidnightPurple;
     font-weight: 600;
   }
   .menu a:hover,
   .menu a:focus {
-    color: $Skyblue;
+    color: $MidnightPurple;
   }
   .menu-button--full:hover {
-    background: $Skyblue;
+    background: $MidnightPurple;
   }
   .menu-list-item--full {
     font-size: 2em;
